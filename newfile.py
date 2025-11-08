@@ -11,18 +11,18 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 
 # ------------------- Sozlamalar -------------------
-API_ID = 22936295
-API_HASH = "2092af84df82745acded1f3a5d1ceeaf"
+API_ID = 229361337263295
+API_HASH = "2092af84df8274513acded1f3a5ххххх173331882d1ceeaf"
 PHONE_NUMBER = "+998919241285"
 
-TARGET_USERNAME = "@KholikovaShakhina"
+TARGET_USERNAME = "@Узирa"
 DB_FILE = "sent_messages.db"
 MEMORY_JSON = "message_memory.json"
 MEMORY_XML = "message_memory.xml"
 
 UZB_TIMEZONE = pytz.timezone("Asia/Tashkent")
-SEND_HOUR = 8
-SEND_MINUTE = 10
+SEND_HOUR = 8 ##Тайм
+SEND_MINUTE = 10 #минут
 # --------------------------------------------------
 
 app = Client("daily_userbot", api_id=API_ID, api_hash=API_HASH, phone_number=PHONE_NUMBER)
