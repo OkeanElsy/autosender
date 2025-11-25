@@ -10,12 +10,12 @@ import pytz
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-# ------------------- Sozlamalar -------------------
-API_ID = 229361337263295
-API_HASH = "2092af84df8274513acded1f3a5ххххх173331882d1ceeaf"
-PHONE_NUMBER = "+998919241285"
 
-TARGET_USERNAME = "@Узирa"
+API_ID = id
+API_HASH = "2your api hash"
+PHONE_NUMBER = "+998xxxxxxxxx"
+
+TARGET_USERNAME = "@Уuser"
 DB_FILE = "sent_messages.db"
 MEMORY_JSON = "message_memory.json"
 MEMORY_XML = "message_memory.xml"
